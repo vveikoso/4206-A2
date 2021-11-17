@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/grid.css">
+  <title>AM Tech</title>
+</head>
+
+<body>
+
+
+  <div class="topnav sticky" id="myTopnav">
+    <ul>
+        <a href="index.html">Home</a>
+        <a href="product.html" >Product</a>
+        <a href="contact.html">Contact</a>
+        <a href="legal.html">Legal</a>
+        <a href="video.html"  class="active">Video</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a> -->
+    </ul>
+</div>
+
+  <h1 class="h1center">AMB Technology</h1>
+
+  <div class="center">
+    <img src="images/80963bc0a3714320aa13edf69210663c.png" width="300" height="400"
+      alt="80963bc0a3714320aa13edf69210663c.png">
+  </div>
+
+  <div>
+    <h2 class="center">Video</h2>
+    <br>
+    <p class="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pShOM8ZOSHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+</div>
+
+  <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      }
+      else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+
+
+
+
+<!-- 
+  <div class="navbar" id="myNavbar">
+    <a href="index.html">Home</a>
+    <a href="product.html" class="active">Product</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <a href="legal.html">Legal</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div> -->
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myNavbar");
+      if (x.className === "navbar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navbar";
+      }
+    }
+  </script>
+
+
+</body>
+
+</html>

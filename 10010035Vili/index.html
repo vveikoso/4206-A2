@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/grid.css">
+    <title>AM Tech</title>
+</head>
+
+<body>
+
+
+    <div class="topnav sticky" id="myTopnav">
+        <ul>
+            <a href="index.html" class="active">Home</a>
+            <a href="product.html" >Product</a>
+            <a href="contact.html">Contact</a>
+            <a href="legal.html">Legal</a>
+            <a href="video.html">Video</a>
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a> -->
+        </ul>
+    </div>
+
+
+
+    <!-- <div class="center">
+        <img src="images/80963bc0a3714320aa13edf69210663c.png" width="300" height="400"
+            alt="80963bc0a3714320aa13edf69210663c.png">
+    </div> -->
+
+    <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            }
+            else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+<br>
+<br>
+<br>
+<div>
+    <h1 class="h1center">AM Technology</h1>
+
+    <div class="row">
+        <div class="column">
+          <img src="images/pexels-rfstudio-3825581.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="images/80963bc0a3714320aa13edf69210663c.png" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="images/pexels-athena-2582931.jpg" style="width:100%">
+        </div>
+      </div>
+
+<div class="center">
+    <h2>About us</h2>
+    <p>
+      Do you ever find yourself working and have no time to go to the tech store after work? Have you ever noticed that
+      there is a lack of tech shops open at night time? Night time is usually the main time that gamers have fun and
+      fool around with their friends and this usually end up going through to early hours of the morning. Well that’s
+      where AMTech come into play and offer night time services and will be available to the customers that work late
+      and don’t have the luxury to go during the day time when the other tech companies are open. We will be located in
+      Brookfield which is central in Tauranga and not to far to travel from the city centre and you will be able to come
+      in from 12am – 5am and will be available online 24/7 as well.
+    </p>
+    <h2>Background</h2>
+    <p>
+      We have noticed a lack of technology stores open after hours, so we came up with idea to open a store that is open
+      when the majority of the heavy gamers or even just the casual gamer getting of work and the local tech places are
+      just closing. Now you’re not able to get the assistance you need. That’s where AMTech comes in.
+    </p>
+    <h2>Our Mission</h2>
+    <p>
+      To be available when all the other tech stores are closed. Give assistance to people that aren’t that tech savvy.
+      Offer something different that most tech stores don,t offer. Sell mainly tech equipment like pc components,
+      computers, Monitors, connectors, cables etc to those who don’t have the time during daytime.
+    </p>
+  </div>
+
+</div>
+
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+
+<br>
+<br>
+<br>
+    <!-- <div class="navbar" id="myNavbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="product.html">Product</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="legal.html">Legal</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div> -->
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myNavbar");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
